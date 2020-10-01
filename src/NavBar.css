@@ -1,0 +1,23 @@
+.navbar {
+  height: 100vh;
+  width: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #111;
+}
+
+.navbar_icon {
+  color: white;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+.navbar_icon:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.08);
+  color: greenyellow;
+}

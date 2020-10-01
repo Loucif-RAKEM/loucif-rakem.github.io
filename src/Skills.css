@@ -1,0 +1,8 @@
+.skills{
+    display: flex;
+}
+
+.content{
+    width: 95vw;
+    background-color: lightgrey;
+}

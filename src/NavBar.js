@@ -1,37 +1,45 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./NavBar.css";
 import HomeIcon from "@material-ui/icons/Home";
 import SchoolIcon from "@material-ui/icons/School";
-import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
-import WorkIcon from "@material-ui/icons/Work";
-import SentimentSatisfiedOutlinedIcon from "@material-ui/icons/SentimentSatisfiedOutlined";
-import PermContactCalendarIcon from "@material-ui/icons/PermContactCalendar";
-import { Link } from "react-router-dom";
+import CodeIcon from "@material-ui/icons/Code";
+import FavoriteIcon from "@material-ui/icons/Favorite";
+import PhoneIcon from "@material-ui/icons/Phone";
+import MovieIcon from "@material-ui/icons/Movie";
+import CloseIcon from "@material-ui/icons/Close";
+import NavBarContext from "./NavBarContext";
 
 function NavBar() {
+  const { showNavBar, setShowNavBar } = useContext(NavBarContext);
   return (
-    <div className="navbar">
-      <Link to="/">
-        <HomeIcon fontSize="large" className="navbar_icon" />
-      </Link>
-      <Link to="/formation">
-        <SchoolIcon fontSize="large" className="navbar_icon" />
-      </Link>
-      <Link to="/projets">
-        <WorkIcon fontSize="large" className="navbar_icon" />
-      </Link>
-      <Link to="/competences">
-        <DeveloperModeIcon fontSize="large" className="navbar_icon" />
-      </Link>
-      <Link to="/centres-d-interet">
-        <SentimentSatisfiedOutlinedIcon
-          fontSize="large"
-          className="navbar_icon"
-        />
-      </Link>
-      <Link to="/contact">
-        <PermContactCalendarIcon fontSize="large" className="navbar_icon" />
-      </Link>
+    <div className={showNavBar? "navbar" : "navbar hidden"}>
+      <div className="close_button" onClick={() => setShowNavBar(false)}>
+        <CloseIcon />
+      </div>
+      <div>
+        <HomeIcon className="navbar_icon" />
+        <a href="#">Home</a>
+      </div>
+      <div>
+        <SchoolIcon className="navbar_icon" />
+        <a href="#">My School Degrees</a>
+      </div>
+      <div>
+        <MovieIcon className="navbar_icon" />
+        <a href="#">My Projects</a>
+      </div>
+      <div>
+        <CodeIcon className="navbar_icon" />
+        <a href="#">My Skills</a>
+      </div>
+      <div>
+        <FavoriteIcon className="navbar_icon" />
+        <a href="#">My Hobbies</a>
+      </div>
+      <div>
+        <PhoneIcon className="navbar_icon" />
+        <a href="#">Contact Me</a>
+      </div>
     </div>
   );
 }

@@ -1,23 +1,61 @@
 .navbar {
   height: 100vh;
-  width: 5vw;
+  width: 280px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #111;
+  background-color: yellow;
+  color: #111;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 450ms ease-in-out;
 }
 
+.navbar.hidden {
+  width: 0;
+  z-index: -1;
+}
+
+.navbar > div {
+  display: flex;
+  align-items: center;
+  padding-left: 3vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin-top: 1vh;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar > div:hover {
+  background-color: #ffffff87;
+  padding-left: 3.5vw;
+}
+
+.navbar > div > a {
+  text-decoration: none;
+  color: #111;
+  font-size: 1.08rem;
+}
 .navbar_icon {
-  color: white;
-  -webkit-transition: all 0.45s;
-  -moz-transition: all 0.45s;
-  transition: all 0.45s;
+  color: #111;
+  transition: all 0.45s ease-in-out;
+  margin-right: 1vw;
 }
 
 .navbar_icon:hover {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
   transform: scale(1.08);
-  color: greenyellow;
+}
+
+.close_button {
+  cursor: pointer;
+  align-self: flex-end;
+  position: relative;
+  top: -1vh;
+  right: 1vw;
+}
+
+.close_button:hover {
+  background-color: yellow !important;
 }

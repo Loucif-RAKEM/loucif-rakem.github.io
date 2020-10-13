@@ -22,7 +22,7 @@ function NavBar() {
       </div>
       <div>
         <SchoolIcon className="navbar_icon" />
-        <a href="#">My School Degrees</a>
+        <a href="#courses">My School Degrees</a>
       </div>
       <div>
         <MovieIcon className="navbar_icon" />

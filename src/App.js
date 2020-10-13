@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Courses from "./Courses";
 import Projects from "./Projects";
 import Home from "./Home";

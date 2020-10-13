@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
@@ -7,7 +7,17 @@ import NavBar from "./NavBar";
 
 function Header() {
   const [showNavBar, setShowNavBar] = useState(false);
+  const [showUpArrow, setShowUpArrow] = useState(false);
 
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 500) {
+        setShowUpArrow(true);
+      } else setShowUpArrow(false);
+    });
+
+    return () => window.removeEventListener("scroll");
+  }, []);
   const contextValue = {
     showNavBar,
     setShowNavBar,
@@ -23,9 +33,11 @@ function Header() {
         />
         <span className="my_name">Loucif Rakem</span>
       </NavBarContext.Provider>
-      <a href="#" className="up_arrow">
-        <ArrowUpwardIcon />
-      </a>
+      {showUpArrow ? (
+        <a href="#" className="up_arrow">
+          <ArrowUpwardIcon />
+        </a>
+      ) : null}
     </div>
   );
 }

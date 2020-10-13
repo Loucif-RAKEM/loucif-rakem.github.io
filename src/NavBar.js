@@ -12,13 +12,13 @@ import NavBarContext from "./NavBarContext";
 function NavBar() {
   const { showNavBar, setShowNavBar } = useContext(NavBarContext);
   return (
-    <div className={showNavBar? "navbar" : "navbar hidden"}>
+    <div className={showNavBar ? "navbar" : "navbar hidden"}>
       <div className="close_button" onClick={() => setShowNavBar(false)}>
         <CloseIcon />
       </div>
       <div>
         <HomeIcon className="navbar_icon" />
-        <a href="#">Home</a>
+        <a href="#">About Me</a>
       </div>
       <div>
         <SchoolIcon className="navbar_icon" />

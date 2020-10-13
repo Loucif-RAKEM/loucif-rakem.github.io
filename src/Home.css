@@ -1,18 +1,35 @@
-.content {
-  background-color: lightgrey;
-  display: flex;
-  justify-content: space-around;
+.home {
+  margin-top: 85px;
+  height: auto;
+  color: #111;
 }
 
-.text {
-  flex: 0.7;
+.content {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
+  align-items: center;
+}
+
+.text {
+  margin-top: 20px;
+  width: 60vw;
+  text-align: center;
+  line-height: 1.2rem;
+  font-family: "Rouge Script", cursive;
+  font-size: 1.4rem;
+}
+
+.text > p {
+  margin-top: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2rem;
 }
 
 .content > img {
+  margin-top: 5vh;
   object-fit: contain;
-  width: 30vw;
+  width: 20vw;
 }

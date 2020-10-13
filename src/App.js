@@ -6,7 +6,6 @@ import Skills from "./Skills";
 import Hobbies from "./Hobbies";
 import Contact from "./Contact";
 import Header from "./Header";
-import NavBar from "./NavBar";
 
 function App() {
   return (

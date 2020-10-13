@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import MenuIcon from "@material-ui/icons/Menu";
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import NavBarContext from "./NavBarContext";
 import NavBar from "./NavBar";
 
@@ -22,6 +23,9 @@ function Header() {
         />
         <span className="my_name">Loucif Rakem</span>
       </NavBarContext.Provider>
+      <a href="#" className="up_arrow">
+        <ArrowUpwardIcon />
+      </a>
     </div>
   );
 }

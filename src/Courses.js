@@ -15,7 +15,7 @@ function Courses() {
   }, []);
   return (
     <div className="courses" id="courses">
-      <div className={"content" + " " + animationClass}>
+      <div className={`content${" " + animationClass}`}>
         <ul>
           <li>
             <span className="year">2019 - 2020 :</span>
@@ -50,6 +50,9 @@ function Courses() {
             </div>
           </li>
         </ul>
+        <hr
+          style={{ width: "20vw", marginTop: "40px", marginBottom: "40px" }}
+        />
       </div>
     </div>
   );

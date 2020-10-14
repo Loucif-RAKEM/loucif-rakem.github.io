@@ -26,19 +26,19 @@ function NavBar() {
       </div>
       <div>
         <MovieIcon className="navbar_icon" />
-        <a href="#">My Projects</a>
+        <a href="#projects">My Projects</a>
       </div>
       <div>
         <CodeIcon className="navbar_icon" />
-        <a href="#">My Skills</a>
+        <a href="#skills">My Skills</a>
       </div>
       <div>
         <FavoriteIcon className="navbar_icon" />
-        <a href="#">My Hobbies</a>
+        <a href="#hobbies">My Hobbies</a>
       </div>
       <div>
         <PhoneIcon className="navbar_icon" />
-        <a href="#">Contact Me</a>
+        <a href="#contact">Contact Me</a>
       </div>
     </div>
   );

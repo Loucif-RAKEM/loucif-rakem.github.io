@@ -39,3 +39,11 @@ ul.tech_list {
 .project.hidden{
   display: none;
 }
+
+.MuiPaper-rounded {
+  border-radius: 20px !important;
+}
+
+.MuiCardActions-root {
+  justify-content: center !important;
+}

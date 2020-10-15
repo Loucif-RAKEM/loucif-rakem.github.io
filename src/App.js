@@ -6,6 +6,7 @@ import Skills from "./Skills";
 import Hobbies from "./Hobbies";
 import Contact from "./Contact";
 import Header from "./Header";
+import skills from "./SkillsData";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Home />
       <Courses />
       <Projects />
-      <Skills />
+      <Skills skills={skills} />
       <Hobbies />
       <Contact />
     </div>

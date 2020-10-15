@@ -1,21 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Courses.css";
+import SchoolIcon from "@material-ui/icons/School";
 
 function Courses() {
-  const [animationClass, setanimationClass] = useState("hidden");
-
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 200) {
-        setanimationClass("animate__animated animate__fadeInRightBig");
-      }
-    });
-
-    return () => window.removeEventListener("scroll");
-  }, []);
   return (
     <div className="courses" id="courses">
-      <div className={`content${" " + animationClass}`}>
+      <div className="content animate__animated animate__fadeInUp">
+        <h1>
+          My Degrees <SchoolIcon className="content_icon"/>
+        </h1>
+
         <ul>
           <li>
             <span className="year">2019 - 2020 :</span>
@@ -50,9 +44,7 @@ function Courses() {
             </div>
           </li>
         </ul>
-        <hr
-          style={{ width: "20vw", marginTop: "40px", marginBottom: "40px" }}
-        />
+
       </div>
     </div>
   );

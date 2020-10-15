@@ -5,9 +5,9 @@ import SchoolIcon from "@material-ui/icons/School";
 import CodeIcon from "@material-ui/icons/Code";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import PhoneIcon from "@material-ui/icons/Phone";
-import MovieIcon from "@material-ui/icons/Movie";
 import CloseIcon from "@material-ui/icons/Close";
 import NavBarContext from "./NavBarContext";
+import WhatshotIcon from '@material-ui/icons/Whatshot';
 
 function NavBar() {
   const { showNavBar, setShowNavBar } = useContext(NavBarContext);
@@ -25,7 +25,7 @@ function NavBar() {
         <a href="#courses">My School Degrees</a>
       </div>
       <div>
-        <MovieIcon className="navbar_icon" />
+        <WhatshotIcon className="navbar_icon" />
         <a href="#projects">My Projects</a>
       </div>
       <div>

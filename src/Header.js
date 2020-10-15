@@ -8,9 +8,13 @@ import NavBar from "./NavBar";
 function Header() {
   const [showNavBar, setShowNavBar] = useState(false);
   const [showUpArrow, setShowUpArrow] = useState(false);
+  const [showHeader, setShowHeader] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
+      if (window.scrollY < 40) setShowHeader(false);
+      else setShowHeader(true);
+
       if (window.scrollY > 500) {
         setShowUpArrow(true);
       } else setShowUpArrow(false);
@@ -23,7 +27,7 @@ function Header() {
     setShowNavBar,
   };
   return (
-    <div className="header">
+    <div className={showHeader ? "header show" : "header"}>
       <NavBarContext.Provider value={contextValue}>
         <NavBar />
         <MenuIcon

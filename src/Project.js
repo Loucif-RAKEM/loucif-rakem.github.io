@@ -51,10 +51,10 @@ function Project({ title, description, img, project_url, technologies }) {
           <Button
           size="small"
             target="_blank"
-            variant="outlined"
+            variant="contained"
             color="secondary"
             href={project_url}
-            endIcon={<VisibilityIcon color="secondary"/>}
+            endIcon={<VisibilityIcon/>}
           >
             view project
           </Button>

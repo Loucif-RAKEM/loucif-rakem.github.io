@@ -4,11 +4,16 @@
   padding-left: 1vw;
   height: 80px;
   width: 100vw;
-  background-color: #111;
-  color: white;
+  color: #111;
   position: fixed;
   top: 0;
   z-index: 1;
+  transition: all 450ms ease-in-out;
+}
+
+.header.show {
+  background-color: #111;
+  color: white;
 }
 
 .header > .my_name {
@@ -20,14 +25,14 @@
 
 .header > .menu_icon {
   cursor: pointer;
-  transition: all 450ms ease-in-out;
+  transition: transform 450ms ease-in-out;
 }
 
 .header > .menu_icon:hover {
   transform: scale(1.08);
 }
 
-.up_arrow{
+.up_arrow {
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -36,6 +41,6 @@
   color: teal;
 }
 
-.up_arrow:hover{
+.up_arrow:hover {
   bottom: 15px;
 }

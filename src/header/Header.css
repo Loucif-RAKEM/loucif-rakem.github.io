@@ -38,3 +38,10 @@
   right: 10px !important;
   z-index: 1 !important;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .header > .my_name {
+    margin-left: 6vw;
+    font-size: 2rem;
+  }
+}

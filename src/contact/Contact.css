@@ -1,5 +1,29 @@
 .contact {
+  background-color: #111111;
+  color: white;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 80px;
 }
 
-.content {
+.contact > h4 {
+  font-family: "Rouge Script", "Raleway", -apple-system, sans-serif !important;
+  font-weight: 300;
+  font-size: 1.4rem;
+  margin: 0;
+}
+.contact > .icon_list {
+  color: white;
+}
+
+.contact_icon {
+  color: white;
+  transition: all 450ms ease-in-out !important;
+}
+
+.contact_icon:hover{
+    transform: scale(1.08);
 }

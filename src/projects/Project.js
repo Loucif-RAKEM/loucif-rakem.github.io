@@ -14,7 +14,7 @@ function Project({ title, description, img, project_url, technologies }) {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 720) {
+      if (window.scrollY > 700) {
         setanimationClass("animate__animated animate__bounceInRight");
       }
     });

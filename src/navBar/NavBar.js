@@ -7,7 +7,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import PhoneIcon from "@material-ui/icons/Phone";
 import CloseIcon from "@material-ui/icons/Close";
 import NavBarContext from "./NavBarContext";
-import WhatshotIcon from '@material-ui/icons/Whatshot';
+import WhatshotIcon from "@material-ui/icons/Whatshot";
 
 function NavBar() {
   const { showNavBar, setShowNavBar } = useContext(NavBarContext);
@@ -18,6 +18,7 @@ function NavBar() {
       </div>
       <div>
         <HomeIcon className="navbar_icon" />
+        {/* eslint-disable-next-line */}
         <a href="#">About Me</a>
       </div>
       <div>

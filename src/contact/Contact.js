@@ -1,13 +1,30 @@
 import React from "react";
 import "./Contact.css";
-import PhoneIcon from "@material-ui/icons/Phone";
-
+import FavoriteIcon from "@material-ui/icons/Favorite";
+import IconButton from "@material-ui/core/IconButton";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from '@material-ui/icons/GitHub';
+import MailIcon from '@material-ui/icons/Mail';
 
 function Contact() {
   return (
     <div className="contact" id="contact">
-      <div className="content">
-        <h1>Contact <PhoneIcon color="secondary" /></h1>
+      <h4>
+        2020, Designed with <FavoriteIcon  color="secondary"/> By Loucif Rakem
+      </h4>
+
+      <div className="icon_list">
+        <IconButton target="_Blank" href="https://www.linkedin.com/in/lrakem/">
+          <LinkedInIcon className="contact_icon"/>
+        </IconButton>
+
+        <IconButton target="_Blank" href="https://github.com/Loucif-RAKEM">
+          <GitHubIcon className="contact_icon"/>
+        </IconButton>
+
+        <IconButton href="mailto:rakem.loucif@gmail.com">
+          <MailIcon className="contact_icon"/>
+        </IconButton>
       </div>
     </div>
   );

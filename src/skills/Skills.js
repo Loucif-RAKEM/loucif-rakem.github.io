@@ -10,7 +10,7 @@ function Skills({ skills }) {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 1200) {
+      if (window.scrollY > 1380) {
         setanimationClass("animate__animated animate__bounceInUp");
       }
     });
@@ -20,7 +20,7 @@ function Skills({ skills }) {
   return (
     <div className="skills" id="skills">
       <h1>
-        My Skills <CodeIcon className="content_icon" />
+        My Skills & Tools <CodeIcon className="content_icon" />
       </h1>
       <div className={`content`}>
         <div className="logos">

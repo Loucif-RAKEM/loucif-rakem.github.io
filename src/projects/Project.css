@@ -1,6 +1,6 @@
 .card {
   width: 440px;
-  height: 480px;
+  height: 500px;
   margin-bottom: 40px;
   text-align: justify !important;
   transition: transform 450ms ease-in-out !important;
@@ -17,6 +17,10 @@ h4,
 .MuiButton-contained {
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+
+.MuiButton-contained {
+  border-radius: 20px !important;
 }
 
 p.MuiTypography-root {
@@ -36,12 +40,13 @@ ul.tech_list {
   margin-right: 10px;
 }
 
-.project.hidden{
+.project.hidden {
   display: none;
 }
 
 .MuiPaper-rounded {
   border-radius: 20px !important;
+  margin-bottom: 20px !important;
 }
 
 .MuiCardActions-root {

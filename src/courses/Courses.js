@@ -5,11 +5,10 @@ import SchoolIcon from "@material-ui/icons/School";
 function Courses() {
   return (
     <div className="courses" id="courses">
+      <h1>
+        My Degrees <SchoolIcon className="content_icon" />
+      </h1>
       <div className="content animate__animated animate__fadeInUp">
-        <h1>
-          My Degrees <SchoolIcon className="content_icon"/>
-        </h1>
-
         <ul>
           <li>
             <span className="year">2019 - 2020 :</span>
@@ -44,7 +43,6 @@ function Courses() {
             </div>
           </li>
         </ul>
-
       </div>
     </div>
   );

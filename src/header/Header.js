@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Header.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
-import NavBarContext from "./NavBarContext";
-import NavBar from "./NavBar";
+import NavBarContext from "../navBar/NavBarContext";
+import NavBar from "../navBar/NavBar";
+import IconButton from '@material-ui/core/IconButton';
 
 function Header() {
   const [showNavBar, setShowNavBar] = useState(false);
@@ -38,9 +39,9 @@ function Header() {
         <span className="my_name">Loucif Rakem</span>
       </NavBarContext.Provider>
       {showUpArrow ? (
-        <a href="#" className="up_arrow">
+        <IconButton href="#" className="up_arrow" color="secondary">
           <ArrowUpwardIcon />
-        </a>
+        </IconButton>
       ) : null}
     </div>
   );

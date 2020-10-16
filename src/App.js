@@ -1,12 +1,12 @@
 import React from "react";
-import Courses from "./Courses";
-import Projects from "./Projects";
-import Home from "./Home";
-import Skills from "./Skills";
-import Hobbies from "./Hobbies";
-import Contact from "./Contact";
-import Header from "./Header";
-import skills from "./SkillsData";
+import Courses from "./courses/Courses";
+import Projects from "./projects/Projects";
+import Home from "./home/Home";
+import Skills from "./skills/Skills";
+import Hobbies from "./hobbies/Hobbies";
+import Contact from "./contact/Contact";
+import Header from "./header/Header"
+import skills from "./skills/SkillsData";
 
 function App() {
   return (

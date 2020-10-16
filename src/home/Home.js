@@ -13,8 +13,8 @@ function Home() {
         <div className="text animate__animated animate__fadeInUp">
           <h2>Hi, my name is Loucif and I am a</h2>
           <h2>
-            <span style={{ color: "teal" }}>Full Stack</span> Web{" "}
-            <span style={{ color: "teal" }}>Developer</span>
+            <span style={{ color: "#E91E63" }}>Full Stack</span> Web{" "}
+            <span style={{ color: "#E91E63" }}>Developer</span>
           </h2>
           <p>
             I enjoy building web apps and solving daily problems using the most

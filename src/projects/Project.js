@@ -14,8 +14,8 @@ function Project({ title, description, img, project_url, technologies }) {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 600) {
-        setanimationClass("animate__animated animate__zoomIn");
+      if (window.scrollY > 720) {
+        setanimationClass("animate__animated animate__bounceInRight");
       }
     });
 

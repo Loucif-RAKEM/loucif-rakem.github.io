@@ -3,19 +3,19 @@
   margin-top: 60px;
 }
 
-.skills > .content{
-    margin-top: 80px;
+.skills > .content {
+  margin-top: 80px;
 }
 
-.logo.hidden{
-    display: none;
+.logo.hidden {
+  display: none;
 }
 
 .logos {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  }
+}
 
 .logo > img {
   width: 100px;
@@ -41,9 +41,29 @@
 }
 
 .progress {
-    transition: transform 450ms ease-in-out;
+  transition: transform 450ms ease-in-out;
 }
 
-.progress:hover{
-    transform: scale(1.08);
+.progress:hover {
+  transform: scale(1.08);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .skills {
+    margin-top: 0;
+  }
+  .skills > .content{
+    margin-top: 30px;
+  }
+
+  .logo > img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .logo {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+  }
 }

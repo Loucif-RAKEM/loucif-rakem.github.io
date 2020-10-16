@@ -14,7 +14,7 @@ function Project({ title, description, img, project_url, technologies }) {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 700) {
+      if (window.scrollY > 580) {
         setanimationClass("animate__animated animate__bounceInRight");
       }
     });
@@ -49,12 +49,12 @@ function Project({ title, description, img, project_url, technologies }) {
         </CardActionArea>
         <CardActions>
           <Button
-          size="small"
+            size="small"
             target="_blank"
             variant="contained"
             color="secondary"
             href={project_url}
-            endIcon={<VisibilityIcon/>}
+            endIcon={<VisibilityIcon />}
           >
             view project
           </Button>

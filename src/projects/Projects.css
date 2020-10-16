@@ -13,3 +13,13 @@
     sans-serif;
   font-size: 2.4rem;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .projects > .content {
+    margin-top: 30px;
+  }
+
+  .projects > h1 {
+    font-size: 1.6rem;
+  }
+}

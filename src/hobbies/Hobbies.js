@@ -32,7 +32,7 @@ function Hobbies() {
         />
         <Hobby
           title={"Trips"}
-          description={["Nature", "Hiking", "Tourist attractions"]}
+          description={["Nature", "Hiking", "Mountains","Tourist attractions"]}
           img_url={"/trips.jpg"}
         />
       </div>

@@ -43,3 +43,23 @@ h1 {
 h1:hover {
   padding-left: 20px;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .courses{
+    margin-top: 0px;
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  .courses > .content > ul{
+    padding-left: 5vw !important;
+  }
+
+  h1{
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+  .school{
+    margin-left: 0;
+  }
+}

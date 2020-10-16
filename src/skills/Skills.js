@@ -10,7 +10,7 @@ function Skills({ skills }) {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 1380) {
+      if (window.scrollY > 1200) {
         setanimationClass("animate__animated animate__bounceInUp");
       }
     });

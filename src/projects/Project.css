@@ -52,3 +52,11 @@ ul.tech_list {
 .MuiCardActions-root {
   justify-content: center !important;
 }
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .card {
+    width: 85vw;
+    height: auto;
+  }
+}

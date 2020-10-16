@@ -9,3 +9,12 @@
   justify-content: space-evenly;
   margin-top: 80px;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .hobbies{
+    margin-top: 0;
+  }
+  .hobbies > .content{
+    margin-top: 30px;
+  }
+}

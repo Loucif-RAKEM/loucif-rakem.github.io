@@ -1,5 +1,5 @@
 .navbar {
-  height: 100vh;
+  height: 100%;
   width: 280px;
   display: flex;
   flex-direction: column;
@@ -57,4 +57,18 @@
 
 .close_button:hover {
   background-color: yellow !important;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .navbar > div{
+    padding-left: 7vw;
+  }
+
+  .navbar > div:hover{
+    padding-left: 8vw;
+  }
+  .navbar > div > a{
+    font-size: 1rem;
+    padding-left: 10px;
+  }
 }

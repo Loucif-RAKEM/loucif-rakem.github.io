@@ -24,6 +24,19 @@
   transition: all 450ms ease-in-out !important;
 }
 
-.contact_icon:hover{
-    transform: scale(1.08);
+.contact_icon:hover {
+  transform: scale(1.08);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .contact {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+  }
+  .contact > h4 {
+    font-size: 1rem;
+  }
 }

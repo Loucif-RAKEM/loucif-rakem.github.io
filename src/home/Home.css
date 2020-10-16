@@ -33,4 +33,22 @@
   width: 20vw;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .content > img {
+    margin-top: 0vh;
+    width: 45vw;
+  }
 
+  .text {
+    margin-top: 0px;
+    width: 90vw !important;
+  }
+  .home > .content > .text > h2 {
+    font-size: 1.6rem;
+  }
+  .text > p {
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 30px;
+  }
+}

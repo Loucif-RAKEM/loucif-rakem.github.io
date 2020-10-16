@@ -39,7 +39,7 @@ function Projects() {
           description="I created a simple implementation of the game Tic Tac Toe as a web application using React.js and other recent technologies."
           img={{
             title: "Tic Tac Toe Game",
-            url: "/tic-tac-toe.png",
+            url: "/tic-tac-toe-ui.png",
             alt: "Tic Tac Toe UI",
             height: "180",
           }}

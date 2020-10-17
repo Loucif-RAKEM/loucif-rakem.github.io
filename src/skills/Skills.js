@@ -10,7 +10,9 @@ function Skills({ skills }) {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 1250) {
+      const scrollValue =
+        window.innerWidth >= 320 && window.innerWidth < 480 ? 1650 : 1250;
+      if (window.scrollY > scrollValue) {
         setanimationClass("animate__animated animate__bounceInUp");
       }
     });
@@ -33,8 +35,12 @@ function Skills({ skills }) {
                 loading="lazy"
               />
               <h5>{skill.name}</h5>
-              <Box position="relative" display="inline-flex" className="progress">
-                <CircularProgress variant="static" value={skill.level}/>
+              <Box
+                position="relative"
+                display="inline-flex"
+                className="progress"
+              >
+                <CircularProgress variant="static" value={skill.level} />
                 <Box
                   top={0}
                   left={0}
@@ -45,10 +51,9 @@ function Skills({ skills }) {
                   alignItems="center"
                   justifyContent="center"
                 >
-                  <Typography
-                    variant="caption"
-                    component="div"
-                  >{`${Math.round(skill.level)}%`}</Typography>
+                  <Typography variant="caption" component="div">{`${Math.round(
+                    skill.level
+                  )}%`}</Typography>
                 </Box>
               </Box>
             </div>

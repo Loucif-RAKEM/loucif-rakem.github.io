@@ -7,7 +7,7 @@ function Hobbies() {
   return (
     <div className="hobbies" id="hobbies">
       <h1>
-        My Hobbies <FavoriteIcon color="secondary" />
+        My Hobbies <FavoriteIcon className="content_icon"/>
       </h1>
       <div className="content">
         <Hobby

@@ -20,7 +20,7 @@ li {
 .year {
   font-weight: 700;
   margin-right: 10px;
-  color: #e91e63;
+  color: teal;
 }
 
 .school {
@@ -30,7 +30,7 @@ li {
 }
 
 .content_icon {
-  color: #e91e63;
+  color: teal;
 }
 
 h1 {
@@ -45,21 +45,21 @@ h1:hover {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .courses{
+  .courses {
     margin-top: 0px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.6rem;
   }
 
-  .courses > .content > ul{
+  .courses > .content > ul {
     padding-left: 5vw !important;
   }
 
-  h1{
+  h1 {
     font-size: 1.6rem;
     margin-bottom: 0;
   }
-  .school{
+  .school {
     margin-left: 0;
   }
 }

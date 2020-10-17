@@ -16,7 +16,7 @@ function Projects() {
           description="I developed a clone of the well known streaming platform 'Netflix' using React.js and TMDB API which gives me all the movie's info."
           img={{
             title: "Netflix Clone",
-            url: "/netflix-clone.png",
+            url: "/netflix-clone.jpg",
             alt: "Netflix Clone image",
             height: "180",
           }}
@@ -39,7 +39,7 @@ function Projects() {
           description="I created a simple implementation of the game Tic Tac Toe as a web application using React.js and other recent technologies."
           img={{
             title: "Tic Tac Toe Game",
-            url: "/tic-tac-toe-ui.png",
+            url: "/tic-tac-toe-ui.jpg",
             alt: "Tic Tac Toe UI",
             height: "180",
           }}

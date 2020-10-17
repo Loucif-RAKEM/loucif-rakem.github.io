@@ -7,14 +7,14 @@ function Home() {
       <div className="content ">
         <img
           className="animate__animated animate__bounceInDown"
-          src="/myAvatar.png"
+          src="/myAvatar.jpg"
           alt="Avatar"
         />
         <div className="text animate__animated animate__fadeInUp">
-          <h2>Hi, my name is Loucif and I am a</h2>
+          <h2>Hi, my name is Loucif & I am a</h2>
           <h2>
-            <span style={{ color: "#E91E63" }}>Full Stack</span> Web{" "}
-            <span style={{ color: "#E91E63" }}>Developer</span>
+            <span style={{ color: "teal" }}>Full Stack</span> Web{" "}
+            <span style={{ color: "teal" }}>Developer</span>
           </h2>
           <p>
             I enjoy building web apps and solving daily problems using the most

@@ -42,17 +42,22 @@
 
 .progress {
   transition: transform 450ms ease-in-out;
+  color: teal;
 }
 
 .progress:hover {
   transform: scale(1.08);
 }
 
+.MuiCircularProgress-static{
+  color: teal !important;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .skills {
     margin-top: 0;
   }
-  .skills > .content{
+  .skills > .content {
     margin-top: 30px;
   }
 

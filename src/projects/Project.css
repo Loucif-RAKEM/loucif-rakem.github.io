@@ -21,6 +21,8 @@ h4,
 
 .MuiButton-contained {
   border-radius: 20px !important;
+  color: white !important;
+  background-color: teal !important;
 }
 
 p.MuiTypography-root {
@@ -53,10 +55,13 @@ ul.tech_list {
   justify-content: center !important;
 }
 
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .card {
     width: 85vw;
     height: auto;
+  }
+
+  .MuiCardContent-root > h2 {
+    font-size: 1.4rem;
   }
 }

@@ -11,10 +11,10 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .hobbies{
+  .hobbies {
     margin-top: 0;
   }
-  .hobbies > .content{
+  .hobbies > .content {
     margin-top: 30px;
   }
 }

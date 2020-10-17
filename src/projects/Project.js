@@ -14,7 +14,7 @@ function Project({ title, description, img, project_url, technologies }) {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 580) {
+      if (window.scrollY > 600) {
         setanimationClass("animate__animated animate__bounceInRight");
       }
     });
@@ -31,6 +31,7 @@ function Project({ title, description, img, project_url, technologies }) {
             height={img.height}
             image={img.url}
             title={img.title}
+            loading="lazy"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
@@ -52,7 +53,6 @@ function Project({ title, description, img, project_url, technologies }) {
             size="small"
             target="_blank"
             variant="contained"
-            color="secondary"
             href={project_url}
             endIcon={<VisibilityIcon />}
           >

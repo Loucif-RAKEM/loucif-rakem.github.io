@@ -1,5 +1,5 @@
-# loucif-rakem.github.io
-This is an online portfolio that shows some of my recent projects
+# loucif-rakem.com
+This is an online portfolio that shows my skills as a Full Stack Web Developer and some of my recent projects
 
 ## Author
 Loucif RAKEM

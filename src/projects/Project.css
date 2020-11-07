@@ -7,7 +7,7 @@
 }
 
 .card:hover {
-  transform: scale(1.04) !important;
+  transform: scale(1.01) !important;
 }
 
 .MuiTypography-h5,
@@ -20,9 +20,9 @@ h4,
 }
 
 .MuiButton-contained {
-  border-radius: 20px !important;
   color: white !important;
   background-color: teal !important;
+  margin-bottom: 5% !important;
 }
 
 p.MuiTypography-root {
@@ -42,26 +42,30 @@ ul.tech_list {
   margin-right: 10px;
 }
 
-.project.hidden {
-  display: none;
-}
-
-.MuiPaper-rounded {
-  border-radius: 20px !important;
-  margin-bottom: 20px !important;
-}
-
 .MuiCardActions-root {
   justify-content: center !important;
 }
 
+ul.tech_list {
+  margin-top: 0;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .card {
-    width: 85vw;
+    width: 90vw;
     height: auto;
   }
 
   .MuiCardContent-root > h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+  }
+
+  .MuiPaper-rounded {
+    margin-bottom: 15% !important;
+  }
+
+  ul.tech_list,
+  h4{
+    font-size: 0.85rem;
   }
 }

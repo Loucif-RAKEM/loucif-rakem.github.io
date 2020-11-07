@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Project.css";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -8,21 +8,12 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import VisibilityIcon from "@material-ui/icons/Visibility";
+import ListAltIcon from '@material-ui/icons/ListAlt';
 
 function Project({ title, description, img, project_url, technologies }) {
-  const [animationClass, setanimationClass] = useState("hidden");
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 600) {
-        setanimationClass("animate__animated animate__bounceInRight");
-      }
-    });
-
-    return () => window.removeEventListener("scroll");
-  }, []);
   return (
-    <div className={`project${" " + animationClass}`}>
+    <div className="project">
       <Card className="card">
         <CardActionArea>
           <CardMedia
@@ -34,13 +25,13 @@ function Project({ title, description, img, project_url, technologies }) {
             loading="lazy"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography gutterBottom variant="h5" component="h2" style={{color:"teal"}}>
               {title}
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
               {description}
             </Typography>
-            <h4>Technologies:</h4>
+            <h4 style={{display: "flex", alignItems:"center", color:"teal"}}><ListAltIcon fontSize="small" style={{marginRight: "5px", color:"teal"}}/>Tech Stack</h4> 
             <ul className="tech_list">
               {technologies.map((tech, index) => (
                 <li key={index}>{tech}</li>

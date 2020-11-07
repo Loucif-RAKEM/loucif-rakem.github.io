@@ -37,11 +37,21 @@
   bottom: 10px !important;
   right: 10px !important;
   z-index: 1 !important;
+  background-color: #f50057 !important;
+  color: white !important;
+  opacity: 0.9 !important;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .header > .my_name {
     margin-left: 6vw;
     font-size: 2rem;
+  }
+
+  .up_arrow {
+    position: fixed !important;
+    bottom: 80px !important;
+    right: 5px !important;
+    opacity: 0.9 !important;
   }
 }

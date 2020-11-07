@@ -36,7 +36,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .content > img {
-    margin-top: 0vh;
+    margin-top: 10px;
     width: 40vw;
   }
   .text {
@@ -44,8 +44,8 @@
     width: 90vw;
   }
   .home > .content > .text > h2 {
-    font-size: 1.8rem !important;
-    line-height: 1.4rem !important;
+    font-size: 1.6rem !important;
+    line-height: 1.2rem !important;
   }
   .text > p {
     font-size: 0.9rem;

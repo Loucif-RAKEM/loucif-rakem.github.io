@@ -14,6 +14,10 @@
   font-size: 2.4rem;
 }
 
+.projects > .content.hidden {
+  display: none;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .projects > .content {
     margin-top: 30px;

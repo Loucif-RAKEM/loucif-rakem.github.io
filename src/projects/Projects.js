@@ -1,16 +1,29 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Project from "./Project";
 import "./Projects.css";
 
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 
 function Projects() {
+  const [animationClass, setanimationClass] = useState("hidden");
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      const scrollValue =
+        window.innerWidth >= 320 && window.innerWidth < 480 ? 480 : 650;
+      if (window.scrollY > scrollValue) {
+        setanimationClass("animate__animated animate__bounceInRight");
+      }
+    });
+
+    return () => window.removeEventListener("scroll");
+  }, []);
   return (
     <div className="projects" id="projects">
       <h1>
         My Recent Projects <WhatshotIcon className="content_icon" />
       </h1>
-      <div className="content">
+      <div className={`content${" " + animationClass}`}>
         <Project
           title="Netflix Clone"
           description="I developed a clone of the well known streaming platform 'Netflix' using React.js and TMDB API which gives me all the movie's info."
@@ -20,7 +33,7 @@ function Projects() {
             alt: "Netflix Clone image",
             height: "180",
           }}
-          project_url="https://loucif-rakem.github.io/netflix-clone/"
+          project_url="https://loucif-rakem.com/netflix-clone/"
           technologies={[
             "React.js",
             "React Hooks",
@@ -43,7 +56,7 @@ function Projects() {
             alt: "Tic Tac Toe UI",
             height: "180",
           }}
-          project_url="https://loucif-rakem.github.io/morpion-app/"
+          project_url="https://loucif-rakem.com/morpion-app/"
           technologies={[
             "React.js",
             "React Hooks",

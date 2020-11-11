@@ -25,13 +25,13 @@ function Project({ title, description, img, project_url, technologies }) {
             loading="lazy"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="h2" style={{color:"teal"}}>
+            <Typography gutterBottom variant="h5" component="h2" style={{color:"#d0294e"}}>
               {title}
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
               {description}
             </Typography>
-            <h4 style={{display: "flex", alignItems:"center", color:"teal"}}><ListAltIcon fontSize="small" style={{marginRight: "5px", color:"teal"}}/>Tech Stack</h4> 
+            <h4 style={{display: "flex", alignItems:"center", color:"#d0294e"}}><ListAltIcon fontSize="small" style={{marginRight: "5px", color:"#d0294e"}}/>Tech Stack</h4> 
             <ul className="tech_list">
               {technologies.map((tech, index) => (
                 <li key={index}>{tech}</li>

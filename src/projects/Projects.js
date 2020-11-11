@@ -12,7 +12,7 @@ function Projects() {
       const scrollValue =
         window.innerWidth >= 320 && window.innerWidth < 480 ? 480 : 650;
       if (window.scrollY > scrollValue) {
-        setanimationClass("animate__animated animate__bounceInRight");
+        setanimationClass("animate__animated animate__slideInRight");
       }
     });
 
@@ -26,7 +26,7 @@ function Projects() {
       <div className={`content${" " + animationClass}`}>
         <Project
           title="Netflix Clone"
-          description="I developed a clone of the well known streaming platform 'Netflix' using React.js and TMDB API which gives me all the movie's info."
+          description="I developed a clone of the well known streaming platform 'Netflix' using React.js and TMDB API which gives me all the movies' info."
           img={{
             title: "Netflix Clone",
             url: "/netflix-clone.jpg",

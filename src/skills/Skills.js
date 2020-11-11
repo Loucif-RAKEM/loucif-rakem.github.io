@@ -13,7 +13,7 @@ function Skills({ skills }) {
       const scrollValue =
         window.innerWidth >= 320 && window.innerWidth < 480 ? 1650 : 1300;
       if (window.scrollY > scrollValue) {
-        setanimationClass("animate__animated animate__bounceInUp");
+        setanimationClass("animate__animated animate__fadeInUp");
       }
     });
 

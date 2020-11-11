@@ -4,17 +4,17 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home">
-      <div className="content ">
+      <div className="content">
         <img
           className="animate__animated animate__bounceInDown"
           src="/myAvatar.jpg"
           alt="Avatar"
         />
-        <div className="text animate__animated animate__fadeInUp">
+        <div className="text">
           <h2>Hi, my name is Loucif & I am a</h2>
           <h2>
-            <span style={{ color: "teal" }}>Full Stack</span> Web{" "}
-            <span style={{ color: "teal" }}>Developer</span>
+            <span style={{ color: "#d0294e" }}>Full Stack</span> Web{" "}
+            <span style={{ color: "#d0294e" }}>Developer</span>
           </h2>
           <p>
             I enjoy building web apps and solving daily problems using the most

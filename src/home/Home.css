@@ -17,8 +17,8 @@
   width: 60vw;
   text-align: center;
   line-height: 1.2rem;
-  font-family: "Rouge Script", cursive;
-  font-size: 1.4rem;
+  font-family: "Fascinate Inline", cursive;
+  font-size: 1.2rem;
 }
 
 .text > p {
@@ -44,7 +44,7 @@
     width: 90vw;
   }
   .home > .content > .text > h2 {
-    font-size: 1.6rem !important;
+    font-size: 1.3rem !important;
     line-height: 1.2rem !important;
   }
   .text > p {

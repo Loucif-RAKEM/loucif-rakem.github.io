@@ -10,9 +10,9 @@
 }
 
 .contact > h4 {
-  font-family: "Rouge Script", "Raleway", -apple-system, sans-serif !important;
+  font-family:  "Raleway", -apple-system, sans-serif !important;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin: 0;
 }
 .contact > .icon_list {
@@ -36,10 +36,7 @@
     justify-content: center;
     height: 100px;
   }
-  .contact > h4 {
-    font-size: 1.2rem;
-  }
-
+  
   .contact_icon {
     padding-left: 15px;
     padding-right: 15px;

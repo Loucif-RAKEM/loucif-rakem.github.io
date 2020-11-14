@@ -17,10 +17,10 @@
 }
 
 .header > .my_name {
-  font-family: "Rouge Script", -apple-system, "Open Sans", "Helvetica Neue",
+  font-family: "Fascinate Inline", -apple-system, "Open Sans", "Helvetica Neue",
     sans-serif, cursive;
   margin-left: 3vw;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 .header > .menu_icon {
@@ -44,8 +44,8 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .header > .my_name {
-    margin-left: 6vw;
-    font-size: 2rem;
+    margin-left: 10vw;
+    font-size: 1.8rem;
   }
 
   .up_arrow {

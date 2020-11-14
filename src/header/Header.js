@@ -36,7 +36,7 @@ function Header() {
           fontSize="large"
           onClick={() => setShowNavBar(true)}
         />
-        <span className="my_name">Loucif Rakem</span>
+        <span className="my_name">Loucif RAKEM</span>
       </NavBarContext.Provider>
       {showUpArrow ? (
         <IconButton href="#" className="up_arrow">

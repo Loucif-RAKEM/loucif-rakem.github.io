@@ -34,14 +34,8 @@ li {
 }
 
 h1 {
-  font-family: "Rouge Script", -apple-system, sans-serif;
-  font-size: 2.4rem;
-  cursor: pointer;
-  transition: padding-left 450ms ease-in-out;
-}
-
-h1:hover {
-  padding-left: 20px;
+  font-family: "Fascinate Inline", -apple-system, sans-serif;
+  font-size: 2rem;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -56,7 +50,7 @@ h1:hover {
   }
 
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 0;
   }
   .school {

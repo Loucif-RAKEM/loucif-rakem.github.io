@@ -6,7 +6,7 @@ function Home() {
     <div className="home">
       <div className="content">
         <img
-          className="animate__animated animate__bounceInDown"
+          className="animate__animated animate__bounceIn"
           src="/myAvatar.jpg"
           alt="Avatar"
         />

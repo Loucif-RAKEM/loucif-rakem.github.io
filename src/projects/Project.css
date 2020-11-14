@@ -23,6 +23,7 @@ h4,
   color: white !important;
   background-color: #d0294e !important;
   margin-bottom: 5% !important;
+  border-radius: 15px !important;
 }
 
 p.MuiTypography-root {

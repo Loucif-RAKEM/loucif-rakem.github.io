@@ -42,14 +42,14 @@
 
 .progress {
   transition: transform 450ms ease-in-out;
-  color:#d0294e;
+  color: #d0294e;
 }
 
 .progress:hover {
   transform: scale(1.08);
 }
 
-.MuiCircularProgress-static{
+.MuiCircularProgress-static {
   color: #d0294e !important;
 }
 

@@ -1,6 +1,6 @@
 .navbar {
   height: 100%;
-  width: 280px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   background-color: yellow;
@@ -8,18 +8,18 @@
   z-index: 2;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   transition: all 450ms ease-in-out;
 }
 
 .navbar.hidden {
-  margin-left: -280px;
+  margin-right: -320px;
 }
 
 .navbar > div {
   display: flex;
   align-items: center;
-  padding-left: 3vw;
+  padding-left: 50px;
   padding-top: 2vh;
   padding-bottom: 2vh;
   margin-top: 1vh;
@@ -29,18 +29,21 @@
 
 .navbar > div:hover {
   background-color: #ffffff87;
-  padding-left: 3.5vw;
+  padding-left: 65px;
 }
 
 .navbar > div > a {
   text-decoration: none;
-  color: #111;
-  font-size: 1.08rem;
+  color: #21333b;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-left: 10px;
+
 }
 .navbar_icon {
-  color: #111;
+  color: #21333b;
   transition: all 0.45s ease-in-out;
-  margin-right: 1vw;
+  font-size: 1.5rem !important;
 }
 
 .navbar_icon:hover {
@@ -48,11 +51,13 @@
 }
 
 .close_button {
+  color: #21333b;
   cursor: pointer;
   align-self: flex-end;
   position: relative;
-  top: -1vh;
-  right: 1vw;
+  top: 0;
+  right: 25px;
+  margin-bottom: 10vh;
 }
 
 .close_button:hover {
@@ -60,15 +65,11 @@
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .navbar > div{
-    padding-left: 7vw;
+  .navbar{
+    width: 300px;
   }
 
-  .navbar > div:hover{
-    padding-left: 8vw;
-  }
   .navbar > div > a{
     font-size: 1rem;
-    padding-left: 10px;
   }
 }

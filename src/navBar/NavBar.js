@@ -14,7 +14,7 @@ function NavBar() {
   return (
     <div className={showNavBar ? "navbar" : "navbar hidden"}>
       <div className="close_button" onClick={() => setShowNavBar(false)}>
-        <CloseIcon />
+        <CloseIcon fontSize="large" />
       </div>
       <div>
         <HomeIcon className="navbar_icon" />

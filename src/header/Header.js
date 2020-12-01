@@ -33,10 +33,9 @@ function Header() {
         <NavBar />
         <MenuIcon
           className="menu_icon"
-          fontSize="large"
           onClick={() => setShowNavBar(true)}
         />
-        <span className="my_name">Loucif RAKEM</span>
+        <img className="my_logo" src={showHeader ?"/light-logo.png": "dark-logo.png"} alt="My logo"/>
       </NavBarContext.Provider>
       {showUpArrow ? (
         <IconButton href="#" className="up_arrow">

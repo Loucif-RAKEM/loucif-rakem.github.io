@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   padding-left: 1vw;
-  height: 80px;
+  height: 100px;
   width: 100vw;
-  color: #111;
+  color: #21333b;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -12,18 +12,16 @@
 }
 
 .header.show {
-  background-color: #111;
+  background-color: #21333b;
   color: white;
 }
 
-.header > .my_name {
-  font-family: "Fascinate Inline", -apple-system, "Open Sans", "Helvetica Neue",
-    sans-serif, cursive;
-  margin-left: 3vw;
-  font-size: 2rem;
-}
-
 .header > .menu_icon {
+  color: ;
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  font-size: 3rem;
   cursor: pointer;
   transition: transform 450ms ease-in-out;
 }
@@ -32,6 +30,9 @@
   transform: scale(1.08);
 }
 
+.header > .my_logo {
+  margin-left: 20px;
+}
 .up_arrow {
   position: fixed !important;
   bottom: 10px !important;
@@ -43,11 +44,10 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .header > .my_name {
-    margin-left: 10vw;
-    font-size: 1.8rem;
+  .header > .my_logo {
+    transform: scale(0.8);
+    margin-left: 0px;
   }
-
   .up_arrow {
     position: fixed !important;
     bottom: 80px !important;

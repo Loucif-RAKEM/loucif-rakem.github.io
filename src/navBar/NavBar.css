@@ -3,7 +3,7 @@
   width: 320px;
   display: flex;
   flex-direction: column;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   color: #111;
   z-index: 2;
   position: fixed;
@@ -33,12 +33,12 @@
 }
 
 .navbar > div > a {
+  width: 100%;
   text-decoration: none;
   color: #21333b;
   font-size: 1.1rem;
   font-weight: bold;
   padding-left: 10px;
-
 }
 .navbar_icon {
   color: #21333b;
@@ -61,19 +61,19 @@
 }
 
 .close_button:hover {
-  background-color: #E0E0E0 !important;
+  background-color: #e0e0e0 !important;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .navbar{
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .navbar {
     width: 300px;
   }
 
-  .navbar > div > a{
+  .navbar > div > a {
     font-size: 1rem;
   }
 
-  .close_button{
+  .close_button {
     top: 15px;
   }
 }

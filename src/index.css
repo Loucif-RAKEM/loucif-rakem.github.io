@@ -1,5 +1,8 @@
 html {
   scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+  -moz-osx-scroll-behavior: smooth;
+
 }
 
 body {

@@ -1,6 +1,6 @@
 .hobby > img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   transition: all 450ms ease-in-out;
 }
@@ -20,8 +20,8 @@
     margin-bottom: 20px;
   }
   .hobby > img {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
   }
   .hobby > h4 {
     font-size: 0.9rem !important;

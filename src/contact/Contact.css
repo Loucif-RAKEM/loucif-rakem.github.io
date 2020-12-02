@@ -1,7 +1,18 @@
 .contact {
-  background-color: #111111;
+  background: #6441a5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2a0845,
+    #6441a5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2a0845,
+    #6441a5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 60% 60% 0% 0%/100% 100% 100% 100%;
   color: white;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -35,7 +46,7 @@
     justify-content: center;
     height: 100px;
   }
-  
+
   .contact_icon {
     padding-left: 15px;
     padding-right: 15px;

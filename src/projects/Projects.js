@@ -10,9 +10,9 @@ function Projects() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const scrollValue =
-        window.innerWidth >= 320 && window.innerWidth < 480 ? 480 : 650;
+        window.innerWidth >= 320 && window.innerWidth < 480 ? 398 : 650;
       if (window.scrollY > scrollValue) {
-        setanimationClass("animate__animated animate__slideInRight");
+        setanimationClass("animate__animated animate__fadeInUpBig");
       }
     });
 
@@ -48,7 +48,7 @@ function Projects() {
           ]}
         />
         <Project
-          title="Tic Tac Toe"
+          title="Tic Tac Toe Game"
           description="I created a simple implementation of the game Tic Tac Toe as a web application using React.js and other recent technologies."
           img={{
             title: "Tic Tac Toe Game",
@@ -65,6 +65,49 @@ function Projects() {
             "Material UI",
             "Git",
             "Github Pages",
+          ]}
+        />
+
+<Project
+          title="Internship at Flowbird Group"
+          description="I implemented a serialization system in Python which generates the code that handles communications between peripherals inside a ticket vending machine."
+          img={{
+            title: "Ticket vending machine",
+            url: "/tvm.jpg",
+            alt: "Ticket Vending Machine",
+            height: "180",
+          }}
+          project_url="#"
+          technologies={[
+            "Python 3.8",
+            "C",
+            "CORBA",
+            "IDL",
+            "ANTLR4",
+            "JSON",
+            "Git",
+            "Jira",
+            "IntelliJ Idea"
+          ]}
+        />
+
+<Project
+          title="PrestaFind Web App"
+          description="Within a team of three developers, I took part in the development of a web application which puts in touch consultants and potential clients using a profile notation system."
+          img={{
+            title: "PrestaFind",
+            url: "/prestafind.jpg",
+            alt: "PrestaFind",
+            height: "180",
+          }}
+          project_url="#"
+          technologies={[
+            "Vue.js",
+            "Vuetify",
+            "Spring Boot",
+            "REST API",
+            "MySQL",
+            "Trello",
           ]}
         />
       </div>

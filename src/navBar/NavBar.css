@@ -3,7 +3,7 @@
   width: 320px;
   display: flex;
   flex-direction: column;
-  background-color: yellow;
+  background-color: #E0E0E0;
   color: #111;
   z-index: 2;
   position: fixed;
@@ -29,7 +29,7 @@
 
 .navbar > div:hover {
   background-color: #ffffff87;
-  padding-left: 65px;
+  padding-left: 60px;
 }
 
 .navbar > div > a {
@@ -61,7 +61,7 @@
 }
 
 .close_button:hover {
-  background-color: yellow !important;
+  background-color: #E0E0E0 !important;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -71,5 +71,9 @@
 
   .navbar > div > a{
     font-size: 1rem;
+  }
+
+  .close_button{
+    top: 15px;
   }
 }

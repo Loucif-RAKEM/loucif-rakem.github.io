@@ -13,7 +13,7 @@
 }
 
 .header > .menu_icon {
-    position: fixed;
+  position: fixed;
   top: 25px;
   right: 25px;
   font-size: 3rem;
@@ -41,9 +41,15 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .header > .my_logo {
-    transform: scale(0.8);
+    transform: scale(0.6) !important;
     margin-left: 0px;
   }
+
+  .header > .menu_icon {
+    font-size: 2.5rem;
+    top: 30px;
+  }
+
   .up_arrow {
     position: fixed !important;
     bottom: 80px !important;

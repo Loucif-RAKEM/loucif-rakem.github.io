@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <h4>
-        2020, Designed with <FavoriteIcon color="secondary" /> By Loucif Rakem
+        2020, Developed with <FavoriteIcon color="secondary" /> By Loucif Rakem
       </h4>
 
       <div className="icon_list">

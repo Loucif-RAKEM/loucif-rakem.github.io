@@ -8,7 +8,7 @@ function Courses() {
       <h1>
         My Degrees <SchoolIcon className="content_icon" />
       </h1>
-      <div className="content animate__animated animate__fadeInUp">
+      <div className="content">
         <ul>
           <li>
             <span className="year">2019 - 2020 :</span>

@@ -20,21 +20,21 @@ li {
 .year {
   font-weight: 700;
   margin-right: 10px;
-  color: #d0294e;
+  color:#311368;
 }
 
 .school {
   margin-left: 111px;
   font-weight: 200;
   font-style: italic;
+  color: #311368;
 }
 
 .content_icon {
-  color: #d0294e;
+  color: #311368;
 }
 
 h1 {
-  font-family: "Fascinate Inline", -apple-system, sans-serif;
   font-size: 2rem;
 }
 

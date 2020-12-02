@@ -3,32 +3,31 @@
   height: 500px;
   margin-bottom: 40px;
   text-align: justify !important;
-  transition: transform 450ms ease-in-out !important;
+border-radius: 10% !important;
+  transition: transform 450ms ease-out !important;
 }
 
 .card:hover {
   transform: scale(1.01) !important;
 }
 
-.MuiTypography-h5,
-p.MuiTypography-root,
-ul,
-h4,
-.MuiButton-contained {
-  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Raleway,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
-}
-
 .MuiButton-contained {
   color: white !important;
-  background-color: #d0294e !important;
+  background-color: #311368 !important;
   margin-bottom: 5% !important;
-  border-radius: 15px !important;
+  border-top-right-radius: 35% !important;
+  border-bottom-left-radius: 35% !important;
+  padding: 2.5% !important;
+  font-family: "Quicksand", sans-serif !important;
+
 }
 
 p.MuiTypography-root {
-  color: #111 !important;
+  color: #21333b !important;
   line-height: 1.4rem !important;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 10% !important;
+
 }
 
 ul.tech_list {
@@ -49,6 +48,8 @@ ul.tech_list {
 
 ul.tech_list {
   margin-top: 0;
+  color: #21333b;
+  font-family: "Quicksand", sans-serif;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {

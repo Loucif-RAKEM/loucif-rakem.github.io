@@ -4,21 +4,16 @@
   padding-left: 1vw;
   height: 100px;
   width: 100vw;
-  color: #21333b;
+  color: white;
   position: fixed;
   top: 0;
   z-index: 1;
   transition: all 450ms ease-in-out;
-}
-
-.header.show {
-  background-color: #21333b;
-  color: white;
+  background-image: inherit;
 }
 
 .header > .menu_icon {
-  color: ;
-  position: fixed;
+    position: fixed;
   top: 25px;
   right: 25px;
   font-size: 3rem;
@@ -33,12 +28,13 @@
 .header > .my_logo {
   margin-left: 20px;
 }
+
 .up_arrow {
   position: fixed !important;
   bottom: 10px !important;
   right: 10px !important;
   z-index: 1 !important;
-  background-color: #f50057 !important;
+  background-color: #311368 !important;
   color: white !important;
   opacity: 0.9 !important;
 }

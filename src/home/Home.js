@@ -1,20 +1,24 @@
 import React from "react";
 import "./Home.css";
+import Header from "./../header/Header";
 
 function Home() {
   return (
     <div className="home">
+      <Header />
       <div className="content">
-        <img
-          className="animate__animated animate__bounceIn"
-          src="/myAvatar.jpg"
-          alt="Avatar"
-        />
-        <div className="text">
+        <div className="text animate__animated animate__bounceInDown">
           <h2>Hi, my name is Loucif & I am a</h2>
           <h2>
-            <span style={{ color: "#d0294e" }}>Full Stack</span> Web{" "}
-            <span style={{ color: "#d0294e" }}>Developer</span>
+            <span
+              style={{
+                color:
+                  "#fffc00"
+              }}
+            >
+              Full Stack
+            </span>{" "}
+            Web <span style={{ color: "#fffc00" }}>Developer</span>
           </h2>
           <p>
             I enjoy building web apps and solving daily problems using the most

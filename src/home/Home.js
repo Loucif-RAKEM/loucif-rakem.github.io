@@ -1,25 +1,30 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Home.css";
 import Header from "./../header/Header";
 
 function Home() {
+  const autoWriteText = useRef({});
+  const title = "Hi, my name is Loucif & I am a Full Stack Web Developer";
+  let index = 0;
+  setInterval(() => {
+    autoWriteText.current.innerText = title.slice(0, index);
+    index++;
+    if (index > title.length) index = 0;
+  }, 100);
   return (
     <div className="home">
       <Header />
       <div className="content">
         <div className="text animate__animated animate__bounceInDown">
-          <h2>Hi, my name is Loucif & I am a</h2>
-          <h2>
-            <span
-              style={{
-                color:
-                  "#fffc00"
-              }}
-            >
-              Full Stack
-            </span>{" "}
-            Web <span style={{ color: "#fffc00" }}>Developer</span>
+          <h2
+            ref={autoWriteText}
+            style={{
+              color: "#FFEB3B",
+            }}
+          >
+            Hi, my name is Loucif & I am a Full Stack Web Developer
           </h2>
+
           <p>
             I enjoy building web apps and solving daily problems using the most
             recent technologies. I am looking to use all of my skills in order

@@ -45,6 +45,7 @@
     flex-direction: column;
     justify-content: center;
     height: 100px;
+    border-radius: 0;
   }
 
   .contact_icon {

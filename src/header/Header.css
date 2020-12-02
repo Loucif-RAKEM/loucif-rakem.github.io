@@ -1,7 +1,6 @@
 .header {
   display: flex;
   align-items: center;
-  padding-left: 1vw;
   height: 100px;
   width: 100vw;
   color: white;
@@ -41,7 +40,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .header > .my_logo {
-    transform: scale(0.6) !important;
+    transform: scale(0.4) !important;
     margin-left: 0px;
   }
 

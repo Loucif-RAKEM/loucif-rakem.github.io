@@ -1,19 +1,35 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import "./Home.css";
 import Header from "./../header/Header";
+import data from "../data/data";
 
-function Home() {
-  const autoWriteText = useRef({});
-  const title = "Hi, my name is Loucif & I am a Full Stack Web Developer";
-  let index = 0;
-  setInterval(() => {
-    autoWriteText.current.innerText = title.slice(0, index);
-    index++;
-    if (index > title.length) index = 0;
-  }, 100);
+function Home({ lang, setLang }) {
+  const myData = lang === "fr" ? data.fr.home : data.en.home;
+
+  let autoWriteText = useRef({});
+
+  const title = myData.title;
+
+  useEffect(() => {
+    let index = 0;
+    const intervalId = setInterval(() => {
+      autoWriteText.current.innerHTML = title.slice(0, index) + "|";
+      index++;
+      if (index > title.length) {
+        autoWriteText.current.innerHTML = title.slice(0, index)
+        setTimeout(() => index = 0, 650)
+        
+      }
+    }, 100);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  });
+
   return (
     <div className="home">
-      <Header />
+      <Header lang={lang} setLang={setLang} />
       <div className="content">
         <div className="text animate__animated animate__bounceInDown">
           <h2
@@ -22,14 +38,11 @@ function Home() {
               color: "#FFEB3B",
             }}
           >
-            Hi, my name is Loucif & I am a Full Stack Web Developer
+           {""}
           </h2>
 
           <p>
-            I enjoy building web apps and solving daily problems using the most
-            recent technologies. I am looking to use all of my skills in order
-            to add value to my future team, and learn much more about web
-            development and project management.
+            {myData.description}
           </p>
         </div>
       </div>

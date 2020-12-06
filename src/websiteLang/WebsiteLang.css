@@ -1,0 +1,35 @@
+.websiteLang {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: fixed;
+  top: 35px;
+  right: 140px;
+}
+
+.websiteLang > .lang {
+  padding-right: 6px;
+  padding-left: 6px;
+  cursor: pointer;
+}
+
+.websiteLang > .lang:hover {
+  color: #ffeb3b;
+}
+
+.websiteLang > .active {
+  color: #ffeb3b;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .websiteLang {
+    font-size: 0.85em;
+    top: 40px;
+    right: 100px;
+  }
+
+  .websiteLang > .lang {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}

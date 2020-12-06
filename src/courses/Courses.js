@@ -1,46 +1,37 @@
 import React from "react";
 import "./Courses.css";
 import SchoolIcon from "@material-ui/icons/School";
+import data from "../data/data";
 
-function Courses() {
+function Courses({ lang }) {
+  const myData = lang === "fr" ? data.fr.courses : data.en.courses;
+
   return (
     <div className="courses" id="courses">
       <h1>
-        My Degrees <SchoolIcon className="content_icon" />
+        {myData.title} <SchoolIcon className="content_icon" />
       </h1>
       <div className="content">
         <ul>
           <li>
-            <span className="year">2019 - 2020 :</span>
-            <span className="degree">
-              Master's degree in Computer Science, 2nd year
-            </span>
-            <div className="school">University of Franche-Comté, Besançon</div>
+            <span className="year">{myData.degrees[0].year}</span>
+            <span className="degree">{myData.degrees[0].name}</span>
+            <div className="school">{myData.degrees[0].school}</div>
           </li>
           <li>
-            <span className="year">2018 - 2019 :</span>
-            <span className="degree">
-              Master's degree in Computer Science, 1st year
-            </span>
-            <div className="school">University of Franche-Comté, Besançon</div>
+            <span className="year">{myData.degrees[1].year}</span>
+            <span className="degree">{myData.degrees[1].name}</span>
+            <div className="school">{myData.degrees[1].school}</div>
           </li>
           <li>
-            <span className="year">2017 - 2018 :</span>
-            <span className="degree">
-              Master's degree in IT Project management, 1st year
-            </span>
-            <div className="school">
-              University of Mouloud Mammeri, Tizi Ouzou
-            </div>
+            <span className="year">{myData.degrees[2].year}</span>
+            <span className="degree">{myData.degrees[2].name}</span>
+            <div className="school">{myData.degrees[2].school}</div>
           </li>
           <li>
-            <span className="year">2014 - 2017 :</span>
-            <span className="degree">
-              Bachelor's degree in Computer Science
-            </span>
-            <div className="school">
-              University of Mouloud Mammeri, Tizi Ouzou
-            </div>
+            <span className="year">{myData.degrees[3].year}</span>
+            <span className="degree">{myData.degrees[3].name}</span>
+            <div className="school">{myData.degrees[3].school}</div>
           </li>
         </ul>
       </div>

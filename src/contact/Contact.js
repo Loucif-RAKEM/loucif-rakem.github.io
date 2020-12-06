@@ -5,12 +5,16 @@ import IconButton from "@material-ui/core/IconButton";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import MailIcon from "@material-ui/icons/Mail";
+import data from "../data/data";
 
-function Contact() {
+function Contact({ lang }) {
+  const myData = lang === "fr" ? data.fr.contact : data.en.contact;
+
   return (
     <div className="contact" id="contact">
       <h4>
-        2020, Developed with <FavoriteIcon color="secondary" /> By Loucif Rakem
+        {myData.firstPart} <FavoriteIcon color="secondary" />{" "}
+        {myData.secondPart}
       </h4>
 
       <div className="icon_list">

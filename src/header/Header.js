@@ -5,8 +5,9 @@ import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import NavBarContext from "../navBar/NavBarContext";
 import NavBar from "../navBar/NavBar";
 import IconButton from "@material-ui/core/IconButton";
+import WebsiteLang from "../websiteLang/WebsiteLang";
 
-function Header() {
+function Header({lang, setLang}) {
   const [showNavBar, setShowNavBar] = useState(false);
   const [showUpArrow, setShowUpArrow] = useState(false);
 
@@ -26,11 +27,12 @@ function Header() {
   return (
     <div className="header">
       <NavBarContext.Provider value={contextValue}>
-        <NavBar />
+        <NavBar lang={lang}/>
         <MenuIcon
           className="menu_icon"
           onClick={() => setShowNavBar(true)}
         />
+        <WebsiteLang lang={lang} setLang={setLang}/>
         <img className="my_logo animate__animated animate__tada" src={"/light-logo.png"} alt="My logo"/>
       </NavBarContext.Provider>
       {showUpArrow ? (

@@ -4,8 +4,10 @@ import CodeIcon from "@material-ui/icons/Code";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
+import data from "../data/data";
 
-function Skills({ skills }) {
+function Skills({ lang, skills }) {
+  const myData = lang === "fr" ? data.fr.skills : data.en.skills;
   const [animationClass, setanimationClass] = useState("hidden");
 
   useEffect(() => {
@@ -22,7 +24,7 @@ function Skills({ skills }) {
   return (
     <div className="skills" id="skills">
       <h1>
-        My Skills & Tools <CodeIcon className="content_icon" />
+        {myData.title} <CodeIcon className="content_icon" />
       </h1>
       <div className={`content`}>
         <div className="logos">

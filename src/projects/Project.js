@@ -10,7 +10,7 @@ import Typography from "@material-ui/core/Typography";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import ListAltIcon from "@material-ui/icons/ListAlt";
 
-function Project({ title, description, img, project_url, technologies }) {
+function Project({ lang, title, description, img, project_url, technologies }) {
   return (
     <div className="project">
       <Card className="card">
@@ -71,7 +71,7 @@ function Project({ title, description, img, project_url, technologies }) {
               endIcon={<ArrowForwardIcon />}
               disabled
             >
-              view project
+              {lang === "fr"?"voir projet": "view projet"}
             </Button>
           ) : (
             <Button
@@ -81,7 +81,7 @@ function Project({ title, description, img, project_url, technologies }) {
               href={project_url}
               endIcon={<ArrowForwardIcon />}
             >
-              view project
+              {lang === "fr"?"voir projet": "view projet"}
             </Button>
           )}
         </CardActions>

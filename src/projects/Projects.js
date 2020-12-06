@@ -4,7 +4,7 @@ import "./Projects.css";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 import data from "../data/data";
 
-function Projects({lang}) {
+function Projects({ lang }) {
   const myData = lang === "fr" ? data.fr.projects : data.en.projects;
   const [animationClass, setanimationClass] = useState("hidden");
 
@@ -28,6 +28,7 @@ function Projects({lang}) {
         {myData.projectList.map((project, index) => (
           <Project
             key={index}
+            lang={lang}
             title={project.title}
             description={project.description}
             img={project.img}

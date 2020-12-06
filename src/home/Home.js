@@ -16,9 +16,7 @@ function Home({ lang, setLang }) {
       autoWriteText.current.innerHTML = title.slice(0, index) + "|";
       index++;
       if (index > title.length) {
-        autoWriteText.current.innerHTML = title.slice(0, index)
-        setTimeout(() => index = 0, 650)
-        
+        setTimeout(() => index = 0, 650)       
       }
     }, 100);
 

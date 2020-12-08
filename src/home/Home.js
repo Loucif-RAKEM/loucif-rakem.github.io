@@ -2,6 +2,8 @@ import React, { useRef, useEffect } from "react";
 import "./Home.css";
 import Header from "./../header/Header";
 import data from "../data/data";
+import PlayForWorkIcon from '@material-ui/icons/PlayForWork';
+import IconButton from '@material-ui/core/IconButton';
 
 function Home({ lang, setLang }) {
   const myData = lang === "fr" ? data.fr.home : data.en.home;
@@ -42,6 +44,7 @@ function Home({ lang, setLang }) {
           <p>
             {myData.description}
           </p>
+          <IconButton id="downBtn" href="#courses"><PlayForWorkIcon fontSize="large" style={{color:"white"}}/></IconButton>
         </div>
       </div>
     </div>

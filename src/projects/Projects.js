@@ -11,7 +11,7 @@ function Projects({ lang }) {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const scrollValue =
-        window.innerWidth >= 320 && window.innerWidth < 480 ? 398 : 650;
+        window.innerWidth >= 320 && window.innerWidth < 480 ? 398 : 800;
       if (window.scrollY > scrollValue) {
         setanimationClass("animate__animated animate__fadeInUpBig");
       }

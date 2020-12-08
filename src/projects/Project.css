@@ -1,8 +1,10 @@
 .card {
   width: 440px;
   height: 520px;
-  margin-bottom: 40px;
-  border-radius: 10% !important;
+  margin-bottom: 80px;
+  margin-right: 80px;
+  margin-left: 80px;
+  border-radius: 5% !important;
   transition: transform 450ms ease-in-out !important;
 }
 
@@ -56,5 +58,7 @@ ul.tech_list {
     width: 90vw;
     height: auto;
     border-radius: 5% !important;
+    margin-left: auto ;
+    margin-right: auto;
   }
 }

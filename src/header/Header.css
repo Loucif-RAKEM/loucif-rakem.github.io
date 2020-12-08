@@ -13,9 +13,9 @@
 
 .header > .menu_icon {
   position: fixed;
-  top: 25px;
+  top: 30px;
   right: 25px;
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: pointer;
   transition: transform 450ms ease-in-out;
 }
@@ -26,7 +26,7 @@
 
 .header > .my_logo {
   margin-left: 20px;
-  width: 120px;
+  width: 180px;
   height: auto;
 }
 
@@ -47,8 +47,7 @@
   }
 
   .header > .menu_icon {
-    font-size: 2.5rem;
-    top: 30px;
+    top: 32px;
   }
 
   .up_arrow {

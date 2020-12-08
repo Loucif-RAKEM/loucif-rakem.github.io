@@ -13,7 +13,7 @@ function Skills({ lang, skills }) {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const scrollValue =
-        window.innerWidth >= 320 && window.innerWidth < 480 ? 2745 : 1827;
+        window.innerWidth >= 320 && window.innerWidth < 480 ? 3247 : 1940;
       if (window.scrollY > scrollValue) {
         setanimationClass("animate__animated animate__fadeInUp");
       }

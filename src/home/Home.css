@@ -62,7 +62,7 @@
     height: auto;
   }
   #downBtn {
-    top: auto;
+    display: none;
   }
 
   .content > img {
@@ -73,6 +73,7 @@
     margin-top: 5vh;
     margin-bottom: 5vh;
     width: 90vw;
+    height: 500px;
   }
 
   .text > p {
@@ -85,8 +86,8 @@
   }
 
   .text > h2 {
-    width: 75vw;
-    height: 50px;
+    width: 75vw !important;
+    height: 100px !important;
     font-size: 1.2rem !important;
     line-height: 2rem !important;
     margin-bottom: 80px !important;
@@ -98,7 +99,7 @@
     height: auto;
   }
   .text > h2 {
-    height: auto !important;
+    height: 100px !important;
     width: auto !important;
   }
 }

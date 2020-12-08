@@ -90,7 +90,7 @@
     height: 100px !important;
     font-size: 1.2rem !important;
     line-height: 2rem !important;
-    margin-bottom: 80px !important;
+    margin-bottom: 60px !important;
   }
 }
 
@@ -100,6 +100,6 @@
   }
   .text > h2 {
     height: 100px !important;
-    width: auto !important;
+    margin-bottom: 60px !important;
   }
 }

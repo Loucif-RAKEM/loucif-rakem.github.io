@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import FavoriteIcon from "@material-ui/icons/Favorite";
 import IconButton from "@material-ui/core/IconButton";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -13,8 +12,7 @@ function Contact({ lang }) {
   return (
     <div className="contact" id="contact">
       <h4>
-        {myData.firstPart} <FavoriteIcon color="secondary" />{" "}
-        {myData.secondPart}
+        {myData}
       </h4>
 
       <div className="icon_list">

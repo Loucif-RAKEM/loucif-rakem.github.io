@@ -1,6 +1,5 @@
 import React from "react";
 import "./Courses.css";
-import SchoolIcon from "@material-ui/icons/School";
 import data from "../data/data";
 
 function Courses({ lang }) {
@@ -9,7 +8,7 @@ function Courses({ lang }) {
   return (
     <div className="courses" id="courses">
       <h1>
-        {myData.title} <SchoolIcon className="content_icon" />
+        {myData.title}
       </h1>
       <div className="content">
         <ul>

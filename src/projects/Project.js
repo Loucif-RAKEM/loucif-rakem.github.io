@@ -8,7 +8,6 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
-import ListAltIcon from "@material-ui/icons/ListAlt";
 
 function Project({ lang, title, description, img, project_url, technologies }) {
   return (
@@ -32,7 +31,7 @@ function Project({ lang, title, description, img, project_url, technologies }) {
                 color: "#311368",
                 fontFamily: "'Quicksand', sans-serif",
                 fontWeight: "bold",
-                fontSize: "1.2rem"
+                fontSize: "1.2rem",
               }}
             >
               {title}
@@ -48,10 +47,9 @@ function Project({ lang, title, description, img, project_url, technologies }) {
                 fontFamily: "'Quicksand', sans-serif",
               }}
             >
-              <ListAltIcon
-                fontSize="small"
-                style={{ marginRight: "5px", color: "#311368" }}
-              />
+              <span role="img" aria-label="lightening emoji">
+                ⚡{"  "}
+              </span>
               Tech Stack
             </h4>
             <ul className="tech_list">
@@ -71,7 +69,7 @@ function Project({ lang, title, description, img, project_url, technologies }) {
               endIcon={<ArrowForwardIcon />}
               disabled
             >
-              {lang === "fr"?"voir projet": "view projet"}
+              {lang === "fr" ? "voir projet" : "view projet"}
             </Button>
           ) : (
             <Button
@@ -81,7 +79,7 @@ function Project({ lang, title, description, img, project_url, technologies }) {
               href={project_url}
               endIcon={<ArrowForwardIcon />}
             >
-              {lang === "fr"?"voir projet": "view projet"}
+              {lang === "fr" ? "voir projet" : "view projet"}
             </Button>
           )}
         </CardActions>

@@ -14,12 +14,13 @@ const data = {
       ],
     },
     home: {
-      title: "Salut, je m'appelle Loucif et je suis développeur full stack",
+      title:
+        "Salut, je m'appelle Loucif et je suis développeur full stack 💻🚀",
       description:
         "J'aime créer des applications web et résoudre des problèmes du quotidien en utilisant des technologies récentes. Je souhaite mettre à profit mes compétences afin d'apporter une valeur ajoutée à ma future équipe et en apprendre davantage sur le développement web et la gestion de projets.",
     },
     courses: {
-      title: "Formation",
+      title: "Formation 🧑🏻‍🎓",
       degrees: [
         {
           year: "2019 - 2020",
@@ -47,7 +48,7 @@ const data = {
       title: "Compétences informatiques",
     },
     projects: {
-      title: "Projets récents",
+      title: "Projets récents 🚀",
       projectList: [
         {
           title: "Netflix Clone",
@@ -140,7 +141,7 @@ const data = {
       ],
     },
     hobbies: {
-      title: "Centres d'intérêt",
+      title: "Centres d'intérêt 🧘🏻🏝️⛰️",
       hobbies: [
         {
           title: "Développement personnel",
@@ -174,10 +175,8 @@ const data = {
         },
       ],
     },
-    contact: {
-      firstPart: "2020, Développé avec",
-      secondPart: "par Loucif Rakem",
-    },
+    contact: "2020, Développé avec ❤️ par Loucif Rakem"
+    ,
   },
   /****** WEBSITE DATA IN ENGLISH ********
    ***************************************
@@ -194,12 +193,12 @@ const data = {
       ],
     },
     home: {
-      title: "Hi, my name is Loucif & I am a Full Stack Web Developer",
+      title: "Hi, my name is Loucif & I am a Full Stack Web Developer 💻🚀",
       description:
         "I enjoy building web apps and solving daily problems using the most recent technologies. I am looking to use all of my skills in order to add value to my future team, and learn much more about web development and project management.",
     },
     courses: {
-      title: "Degrees",
+      title: "Degrees 🧑🏻‍🎓",
       degrees: [
         {
           year: "2019 - 2020",
@@ -224,7 +223,7 @@ const data = {
       ],
     },
     projects: {
-      title: "My Recent Projects",
+      title: "My Recent Projects 🚀",
       projectList: [
         {
           title: "Netflix Clone",
@@ -320,7 +319,7 @@ const data = {
       title: "My Skills & Tools",
     },
     hobbies: {
-      title: "My Hobbies",
+      title: "My Hobbies 🧘🏻🏝️⛰️",
       hobbies: [
         {
           title: "Personal development",
@@ -349,10 +348,7 @@ const data = {
         },
       ],
     },
-    contact: {
-      firstPart: "2020, Developed with",
-      secondPart: "By Loucif Rakem",
-    },
+    contact: "2020, Developed with ❤️ by Loucif Rakem",
   },
 };
 

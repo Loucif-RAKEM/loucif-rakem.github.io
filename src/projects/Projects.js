@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Project from "./Project";
 import "./Projects.css";
-import WhatshotIcon from "@material-ui/icons/Whatshot";
 import data from "../data/data";
 
 function Projects({ lang }) {
@@ -21,9 +20,7 @@ function Projects({ lang }) {
   }, []);
   return (
     <div className="projects" id="projects">
-      <h1>
-        {myData.title} <WhatshotIcon className="content_icon" />
-      </h1>
+      <h1>{myData.title}</h1>
       <div className={`content${" " + animationClass}`}>
         {myData.projectList.map((project, index) => (
           <Project

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Skills.css";
-import CodeIcon from "@material-ui/icons/Code";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
@@ -24,7 +23,7 @@ function Skills({ lang, skills }) {
   return (
     <div className="skills" id="skills">
       <h1>
-        {myData.title} <CodeIcon className="content_icon" />
+        {myData.title} 🧑🏻‍💻
       </h1>
       <div className={`content`}>
         <div className="logos">

@@ -45,7 +45,7 @@ const data = {
       ],
     },
     skills: {
-      title: "Compétences informatiques",
+      title: "Compétences informatiques 🧑🏻‍💻",
     },
     projects: {
       title: "Projets récents 🚀",
@@ -316,7 +316,7 @@ const data = {
       ],
     },
     skills: {
-      title: "My Skills & Tools",
+      title: "My Skills & Tools 🧑🏻‍💻",
     },
     hobbies: {
       title: "My Hobbies 🧘🏻🏝️⛰️",

@@ -12,7 +12,7 @@ function Skills({ lang, skills }) {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const scrollValue =
-        window.innerWidth >= 320 && window.innerWidth < 480 ? 3150 : 1940;
+        window.innerWidth >= 320 && window.innerWidth < 480 ? 3150 : 2400;
       if (window.scrollY > scrollValue) {
         setanimationClass("animate__animated animate__fadeInUp");
       }
@@ -22,9 +22,7 @@ function Skills({ lang, skills }) {
   }, []);
   return (
     <div className="skills" id="skills">
-      <h1>
-        {myData.title} 🧑🏻‍💻
-      </h1>
+      <h1>{myData.title} </h1>
       <div className={`content`}>
         <div className="logos">
           {skills.map((skill, index) => (

@@ -13,13 +13,13 @@
 
 .logos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .logo > img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
   transition: transform 450ms ease-in-out;
   cursor: pointer;
@@ -59,6 +59,10 @@
   }
   .skills > .content {
     margin-top: 30px;
+  }
+
+  .logos {
+    justify-content: space-evenly;
   }
 
   .logo > img {

@@ -42,7 +42,7 @@
 
 .progress {
   transition: transform 450ms linear;
-  color: #311368;
+  color: #a71d31;
 }
 
 .progress:hover {
@@ -50,7 +50,7 @@
 }
 
 .MuiCircularProgress-static {
-  color: #311368 !important;
+  color: #a71d31 !important;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {

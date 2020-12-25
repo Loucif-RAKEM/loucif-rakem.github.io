@@ -10,17 +10,15 @@
 
 .MuiButton-contained {
   color: white !important;
-  background-color: #311368 !important;
   margin-bottom: 5% !important;
   border-top-right-radius: 35% !important;
   border-bottom-left-radius: 35% !important;
   padding: 2.5% !important;
   font-family: "Quicksand", sans-serif !important;
+  background-color: #3f0d12;
+  background-image: linear-gradient(90deg, #3f0d12 0%, #a71d31 74%);
 }
 
-.MuiButton-contained:hover {
-  background-color: #503385 !important;
-}
 
 p.MuiTypography-root {
   color: #21333b !important;

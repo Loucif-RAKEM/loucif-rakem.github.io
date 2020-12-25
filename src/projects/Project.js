@@ -28,7 +28,7 @@ function Project({ lang, title, description, img, project_url, technologies }) {
               variant="h5"
               component="h2"
               style={{
-                color: "#311368",
+                color: "#21333b",
                 fontFamily: "'Quicksand', sans-serif",
                 fontWeight: "bold",
                 fontSize: "1.2rem",
@@ -43,7 +43,7 @@ function Project({ lang, title, description, img, project_url, technologies }) {
               style={{
                 display: "flex",
                 alignItems: "center",
-                color: "#311368",
+                color: "#21333b",
                 fontFamily: "'Quicksand', sans-serif",
               }}
             >

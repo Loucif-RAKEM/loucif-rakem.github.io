@@ -1,7 +1,6 @@
 .contact {
-  background: #3f51b5;
-  background: -webkit-linear-gradient(to right, #3f51b5, #673ab7);
-  background: linear-gradient(to right, #3f51b5, #673ab7);
+  background-color: #3f0d12;
+  background-image: linear-gradient(90deg, #3f0d12 0%, #a71d31 74%);
   border-radius: 60% 60% 0% 0%/100% 100% 100% 100%;
   color: white;
   height: 100px;

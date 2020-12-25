@@ -7,9 +7,7 @@ function Courses({ lang }) {
 
   return (
     <div className="courses" id="courses">
-      <h1>
-        {myData.title}
-      </h1>
+      <h1>{myData.title}</h1>
       <div className="content">
         <ul>
           <li>

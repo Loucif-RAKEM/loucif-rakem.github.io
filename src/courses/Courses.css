@@ -16,20 +16,24 @@ li {
 }
 .courses {
   font-size: 1.1rem;
-  line-height: 2rem;
+  line-height: 2.4rem;
 }
 
 .year {
+  background-color: #3f0d12;
+  background-image: linear-gradient(90deg, #3f0d12 0%, #a71d31 74%);
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  padding: 5px;
   font-weight: 700;
-  margin-right: 10px;
-  color:#311368;
+  margin-right: 15px;
 }
 
 .school {
+  font-size: 1rem;
   margin-left: 111px;
-  font-weight: 200;
-  font-style: italic;
-  color: #311368;
+  color: #a71d31;
 }
 
 .content_icon {
@@ -50,7 +54,13 @@ h1 {
   }
 
   .courses > .content > ul {
-    padding-left: 5vw !important;
+    padding-left: 0px !important;
+  }
+
+  .courses> .content > ul > li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   h1 {
@@ -59,5 +69,10 @@ h1 {
   }
   .school {
     margin-left: 0;
+    font-size: 0.9rem;
+  }
+
+  .year {
+    font-size: 0.8rem;
   }
 }

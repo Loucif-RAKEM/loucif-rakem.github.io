@@ -1,8 +1,8 @@
 .home {
   width: 100%;
   color: white;
-  background-color: #3f0d12;
-  background-image: linear-gradient(90deg, #3f0d12 0%, #a71d31 74%);
+  background-color: #5719e6;
+  background-image: linear-gradient(90deg, #3f51b5 0%, #5719e6 40%);
 }
 
 .home > .content {
@@ -53,7 +53,7 @@
   width: 20vw;
 }
 
-.curve{
+.curve {
   position: relative;
   bottom: -5px;
 }
@@ -62,7 +62,6 @@
   .home {
     height: auto;
   }
-  
 
   .content > img {
     margin-top: 10px;

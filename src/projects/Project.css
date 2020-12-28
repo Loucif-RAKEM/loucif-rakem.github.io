@@ -15,8 +15,8 @@
   border-bottom-left-radius: 35% !important;
   padding: 2.5% !important;
   font-family: "Dosis", sans-serif !important;
-  background-color: #3f0d12;
-  background-image: linear-gradient(90deg, #3f0d12 0%, #a71d31 74%);
+  background-color: #a8e619 !important;
+  transition: all 450ms linear;
 }
 
 p.MuiTypography-root {

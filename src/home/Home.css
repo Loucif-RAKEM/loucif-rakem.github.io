@@ -1,5 +1,4 @@
 .home {
-  height: 100vh;
   margin-top: 85px;
   color: white;
   background-color: #3f0d12;
@@ -24,7 +23,7 @@
 }
 
 .text > h2 {
-  width: 480px !important;
+  width: 410px !important;
   height: 120px !important;
   margin-bottom: 50px !important;
   line-height: 1.7em !important;
@@ -33,13 +32,13 @@
   padding: 0 !important;
   font-weight: lighter;
   font-family: "Audiowide";
-  font-size: 1.3em !important;
+  font-size: 1.1em !important;
 }
 
 .text > p {
   text-align: left;
   margin-top: 80px;
-  font-size: 1.1rem;
+  font-size: 0.9em;
   line-height: 2rem;
   width: 50vw;
   margin-left: auto;
@@ -55,6 +54,11 @@
 #downBtn {
   position: relative;
   top: 60px;
+}
+
+.curve{
+  position: absolute;
+  bottom: 0;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {

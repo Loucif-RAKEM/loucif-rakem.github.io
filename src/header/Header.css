@@ -28,7 +28,7 @@
   position: fixed;
   top: 10px;
   left: 30px;
-  width: 70px;
+  width: 60px;
   height: auto;
 }
 
@@ -44,9 +44,9 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .header > .my_logo {
-    top: 20px;
+    top: 25px;
     left: 20px;
-    width: 50px;
+    width: 35px;
     height: auto;
   }
 

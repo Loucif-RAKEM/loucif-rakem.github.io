@@ -1,6 +1,4 @@
 .contact {
-  background-color: #5719e6;
-  background-image: linear-gradient(90deg, #3f51b5 0%, #5719e6 40%);
   color: white;
   height: 100px;
   display: flex;
@@ -28,6 +26,13 @@
   transform: scale(1.08);
 }
 
+.footer_curve {
+  width: 100%;
+  position: relative;
+  bottom: -100px;
+  z-index: -1;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .contact {
     margin-top: 0;
@@ -40,5 +45,16 @@
   .contact_icon {
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 1039px) {
+  .footer_curve {
+    display: none;
+  }
+
+  .contact {
+    background-color: #5719e6;
+    background-image: linear-gradient(90deg, #3f51b5 0%, #5719e6 40%);
   }
 }

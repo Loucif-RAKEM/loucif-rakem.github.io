@@ -2,14 +2,12 @@ html {
   scroll-behavior: smooth;
   -webkit-scroll-behavior: smooth;
   -moz-osx-scroll-behavior: smooth;
-
 }
 
 body {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Dosis", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #21333b;
 }
-

@@ -29,7 +29,7 @@ function Project({ lang, title, description, img, project_url, technologies }) {
               component="h2"
               style={{
                 color: "#21333b",
-                fontFamily: "'Quicksand', sans-serif",
+                fontFamily: "'Dosis', sans-serif",
                 fontWeight: "bold",
                 fontSize: "1.2rem",
               }}
@@ -44,7 +44,7 @@ function Project({ lang, title, description, img, project_url, technologies }) {
                 display: "flex",
                 alignItems: "center",
                 color: "#21333b",
-                fontFamily: "'Quicksand', sans-serif",
+                fontFamily: "'Dosis', sans-serif",
               }}
             >
               <span role="img" aria-label="lightening emoji">

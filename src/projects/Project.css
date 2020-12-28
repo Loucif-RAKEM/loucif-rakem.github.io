@@ -14,16 +14,15 @@
   border-top-right-radius: 35% !important;
   border-bottom-left-radius: 35% !important;
   padding: 2.5% !important;
-  font-family: "Quicksand", sans-serif !important;
+  font-family: "Dosis", sans-serif !important;
   background-color: #3f0d12;
   background-image: linear-gradient(90deg, #3f0d12 0%, #a71d31 74%);
 }
 
-
 p.MuiTypography-root {
   color: #21333b !important;
   line-height: 1.4rem !important;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 1.15em !important;
   border-radius: 10% !important;
 }
@@ -48,7 +47,7 @@ ul.tech_list {
 ul.tech_list {
   margin-top: 0;
   color: #21333b;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -56,16 +55,16 @@ ul.tech_list {
     width: 90vw;
     height: auto;
     border-radius: 5% !important;
-    margin-left: auto ;
+    margin-left: auto;
     margin-right: auto;
   }
 }
 
-@media only screen and (min-width: 480px) and (max-width : 954px){
+@media only screen and (min-width: 480px) and (max-width: 954px) {
   .card {
     width: 60vw;
     height: auto;
-    margin-left: auto ;
+    margin-left: auto;
     margin-right: auto;
   }
 }

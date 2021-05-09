@@ -60,7 +60,7 @@ const data = {
             alt: "Netflix Clone image",
             height: "180",
           },
-          projectUrl: "https://loucif-rakem.com/netflix-clone/",
+          projectUrl: "https://netflix-clone-5b011.web.app/",
           technologies: [
             "React.js",
             "React Hooks",
@@ -84,7 +84,7 @@ const data = {
             alt: "Tic Tac Toe UI",
             height: "180",
           },
-          projectUrl: "https://loucif-rakem.com/morpion-app/",
+          projectUrl: "https://loucif-rakem.github.io/morpion-app/",
           technologies: [
             "React.js",
             "React Hooks",
@@ -235,7 +235,7 @@ const data = {
             alt: "Netflix Clone image",
             height: "180",
           },
-          projectUrl: "https://loucif-rakem.com/netflix-clone/",
+          projectUrl: "https://netflix-clone-5b011.web.app/",
           technologies: [
             "React.js",
             "React Hooks",
@@ -259,7 +259,7 @@ const data = {
             alt: "Tic Tac Toe UI",
             height: "180",
           },
-          projectUrl: "https://loucif-rakem.com/morpion-app/",
+          projectUrl: "https://loucif-rakem.github.io/morpion-app/",
           technologies: [
             "React.js",
             "React Hooks",
